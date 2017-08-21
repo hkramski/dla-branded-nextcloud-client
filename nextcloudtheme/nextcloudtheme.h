@@ -73,14 +73,14 @@ public:
 
     QString about() const {
         QString re;
-        re = tr("<p>Version %1. For more information please visit <a href='%2'>%3</a>.</p>")
+        re = tr("<p>Version %1-DLA. For more information please visit <a href='%2'>%3</a>.</p>")
                 .arg(MIRALL_VERSION_STRING).arg("http://" MIRALL_STRINGIFY(APPLICATION_DOMAIN))
                 .arg(MIRALL_STRINGIFY(APPLICATION_DOMAIN));
 
         re += trUtf8("<p><small>By Klaas Freitag, Daniel Molkentin, Jan-Christoph Borchardt, "
                      "Olivier Goffart, Markus Götz and others.</small></p>");
 
-        re += tr("<p>This release was supplied by the Nextcloud GmbH<br />"
+        re += tr("<p>This release was supplied by the Nextcloud GmbH and customized by wdv@dla-marbach.de<br />"
                  "Copyright 2012-2017 ownCloud GmbH</p>");
 
         re += tr("<p>Licensed under the GNU General Public License (GPL) Version 2.0.<br/>"
